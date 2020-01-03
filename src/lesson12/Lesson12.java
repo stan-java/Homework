@@ -5,18 +5,20 @@
  */
 package lesson12;
 
+
 /**
  *
  * @author stanislavhadji
  */
 public class Lesson12 {
     public static void main(String[] args) {
+     
         String s1 = new String("Let`s go home, it`s late already!");
         String s2 = new String("Let`s go home, it`s LATE already!");
-        System.out.println(s1.charAt(6));
-        System.out.println(s1.charAt(10));
-        System.out.println(s1.contains("h"));
-        System.out.println(s1.contains("it is"));
+        System.out.println("Character at the index 6: "+ s1.charAt(6));
+        System.out.println("Character at the index 10: "+s1.charAt(10));
+        System.out.println("String contains char value:  "+ s1.contains("h"));
+        System.out.println("String contains char value:  "+ s1.contains("it is"));
         System.out.println(s1.endsWith("!"));
         System.out.println(s1.endsWith("already !"));
         System.out.println(s1 == s2);
